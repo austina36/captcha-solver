@@ -1,0 +1,7 @@
+{
+  "name": "captcha",
+  "description": "Program that deciphers a CAPTCHA image from a given url",
+  "path": "absolute/path/to/captcha.py",
+  "type": "stdio",
+  "allowed_extensions": ["captcha@app"]
+}
