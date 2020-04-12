@@ -1,0 +1,25 @@
+{
+  "name": "CAPTCHA solver",
+  "version": "1.0",
+  "description": "Scans a CAPTCHA image and outputs text solution",
+  "manifest_version": 2,
+
+  "applications": {
+    "gecko": {
+      "id": "captcha@app",
+      "strict_min_version": "50.0"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": ["activeTab", "tabs", "<all_urls>", "nativeMessaging"],
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.svg"
+  }
+}
+
